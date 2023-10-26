@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.activity.AddContactActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/btn_green_noraml">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="添加好友"
+            android:textColor="@android:color/white"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/tv_add_find"
+            android:layout_width="64dp"
+            android:layout_height="49dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/search" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_add_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:hint="请输入用户名" />
+
+    <RelativeLayout
+        android:id="@+id/rl_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_add_photo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/em_default_avatar" />
+
+        <TextView
+            android:id="@+id/tv_add_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_add_photo"
+            android:text="username"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/bt_add_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/btn_blue_normal"
+            android:text="Add"
+            app:backgroundTint="#8BC34A" />
+    </RelativeLayout>
+</LinearLayout>
