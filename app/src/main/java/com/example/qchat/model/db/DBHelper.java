@@ -21,9 +21,9 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        //创建联系人的表
+        // 创建联系人的表
         db.execSQL(ContactTable.CREATE_TAB);
-        //创建邀请人信息的表
+        // 创建邀请信息的表
         db.execSQL(InviteTable.CREATE_TAB);
     }
 

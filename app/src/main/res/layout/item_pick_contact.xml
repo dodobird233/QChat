@@ -21,7 +21,7 @@
         android:id="@+id/cb_pick"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_marginLeft="100dp"
+        android:layout_marginLeft="120dp"
         android:clickable="false"
         android:focusable="false"
         android:gravity="center" />
