@@ -14,7 +14,5 @@ Android client development project for the Tencent course
 ![理想数据流](https://github.com/dodobird233/QChat/assets/86880754/9af4317e-6af8-4ae8-ae5a-abee429762e1)
 
 部分功能截图：
-![开屏logo](https://github.com/dodobird233/QChat/assets/86880754/229e659e-07f3-4142-847f-9a39741d2d40)
-![聊天页](https://github.com/dodobird233/QChat/assets/86880754/24d83399-80f2-4ce6-8504-160d715001f1)
-![会话页](https://github.com/dodobird233/QChat/assets/86880754/ca10e852-b92c-40e8-98a6-f1f23764222b)
-![列表页](https://github.com/dodobird233/QChat/assets/86880754/22cd37e4-0903-46c4-ade1-dc35f34cd2c1)
+![演示](https://github.com/dodobird233/QChat/assets/86880754/c5186cac-0f1a-4b7d-b577-4c6b5446a181)
+
