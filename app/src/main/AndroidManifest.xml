@@ -53,6 +53,13 @@
         <activity android:name="com.example.qchat.controller.activity.NewGroupActivity" />
         <activity android:name="com.example.qchat.controller.activity.MomentActivity" />
         <activity android:name="com.example.qchat.controller.activity.PickContactActivity" />
+        <activity android:name="com.hyphenate.easeui.ui.EaseShowBigImageActivity"/>
+        <activity android:name="com.hyphenate.easeui.ui.EaseShowVideoActivity"/>
+        <activity android:name="com.hyphenate.easeui.ui.EaseBaiduMapActivity"/>
+        <activity android:name="com.hyphenate.easeui.ui.EaseBaseActivity"/>
+        <activity android:name="com.hyphenate.easeui.ui.EaseDingMsgSendActivity"/>
+        <activity android:name="com.hyphenate.easeui.ui.EaseDingAckUserListActivity"/>
+
         <activity
             android:name="com.example.qchat.controller.activity.PendingActivity"
             android:exported="true">

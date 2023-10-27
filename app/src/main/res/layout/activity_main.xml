@@ -16,7 +16,7 @@
         android:id="@+id/rg_main"
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="80dp">
+        android:layout_height="75dp">
 
         <RadioButton
             android:id="@+id/rb_main_chat"
@@ -27,26 +27,32 @@
             android:background="@color/white"
             android:button="@null"
             android:drawableTop="@drawable/rb_main_drawable_selector"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
             android:text="Chats" />
 
         <RadioButton
             android:id="@+id/rb_main_contact"
-            android:text="Contacts"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:button="@null"
-            android:background="@color/white"
-            android:drawableTop="@drawable/rb_main_contact_drawable_selector"
-            style="@style/MainButtonStyle"/>
-
-        <RadioButton
-            android:id="@+id/rb_main_discover"
-            android:drawableTop="@drawable/rb_main_discover_drawable_selector"
             style="@style/MainButtonStyle"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:button="@null"
             android:background="@color/white"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_main_contact_drawable_selector"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
+            android:text="Contacts" />
+
+        <RadioButton
+            android:id="@+id/rb_main_discover"
+            style="@style/MainButtonStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:button="@null"
+            android:drawableTop="@drawable/rb_main_discover_drawable_selector"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
             android:text="Discover" />
 
         <RadioButton
@@ -54,9 +60,11 @@
             style="@style/MainButtonStyle"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:button="@null"
             android:background="@color/white"
+            android:button="@null"
             android:drawableTop="@drawable/rb_main_me_drawable_selector"
+            android:scaleX="0.6"
+            android:scaleY="0.6"
             android:text="Me" />
     </RadioGroup>
 
