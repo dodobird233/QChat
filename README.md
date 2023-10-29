@@ -17,4 +17,5 @@ Android client development project for the Tencent course
 
 
 部分功能截图：
+
 ![部分功能截图](https://github.com/dodobird233/QChat/assets/86880754/b30cfe66-2bc1-4c31-8623-d0665c26cabf)
